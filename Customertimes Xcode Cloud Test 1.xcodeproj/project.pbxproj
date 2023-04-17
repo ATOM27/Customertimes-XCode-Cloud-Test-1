@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87FB241B29ED365C00C82CEB /* Customertimes Xcode Cloud Test 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customertimes Xcode Cloud Test 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FB241B29ED365C00C82CEB /* CTCloudTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTCloudTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FB241E29ED365C00C82CEB /* Customertimes_Xcode_Cloud_Test_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customertimes_Xcode_Cloud_Test_1App.swift; sourceTree = "<group>"; };
 		87FB242029ED365C00C82CEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87FB242229ED365E00C82CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		87FB241C29ED365C00C82CEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87FB241B29ED365C00C82CEB /* Customertimes Xcode Cloud Test 1.app */,
+				87FB241B29ED365C00C82CEB /* CTCloudTest1.app */,
 				87FB242B29ED365E00C82CEB /* Customertimes Xcode Cloud Test 1Tests.xctest */,
 				87FB243529ED365E00C82CEB /* Customertimes Xcode Cloud Test 1UITests.xctest */,
 			);
@@ -144,7 +144,7 @@
 			);
 			name = "Customertimes Xcode Cloud Test 1";
 			productName = "Customertimes Xcode Cloud Test 1";
-			productReference = 87FB241B29ED365C00C82CEB /* Customertimes Xcode Cloud Test 1.app */;
+			productReference = 87FB241B29ED365C00C82CEB /* CTCloudTest1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		87FB242A29ED365E00C82CEB /* Customertimes Xcode Cloud Test 1Tests */ = {
@@ -431,7 +431,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Xcode.Cloud.Customertimes-Xcode-Cloud-Test-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CTCloudTest1;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +460,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Xcode.Cloud.Customertimes-Xcode-Cloud-Test-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CTCloudTest1;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Customertimes Xcode Cloud Test 1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Customertimes Xcode Cloud Test 1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTCloudTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CTCloudTest1";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Customertimes Xcode Cloud Test 1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Customertimes Xcode Cloud Test 1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTCloudTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CTCloudTest1";
 			};
 			name = Release;
 		};
