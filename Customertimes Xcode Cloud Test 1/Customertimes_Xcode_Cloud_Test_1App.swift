@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Alamofire
 
 @main
 struct Customertimes_Xcode_Cloud_Test_1App: App {
