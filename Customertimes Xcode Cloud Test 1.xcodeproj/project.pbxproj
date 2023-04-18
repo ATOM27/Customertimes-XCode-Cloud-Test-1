@@ -43,6 +43,7 @@
 		246C55BD65856BD1E6BFE98E /* Pods-Customertimes Xcode Cloud Test 1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customertimes Xcode Cloud Test 1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Customertimes Xcode Cloud Test 1Tests/Pods-Customertimes Xcode Cloud Test 1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39446B9E9A1ECD248DA5CCDE /* Pods-Customertimes Xcode Cloud Test 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customertimes Xcode Cloud Test 1.debug.xcconfig"; path = "Target Support Files/Pods-Customertimes Xcode Cloud Test 1/Pods-Customertimes Xcode Cloud Test 1.debug.xcconfig"; sourceTree = "<group>"; };
 		71439D766E69629A87334907 /* Pods_Customertimes_Xcode_Cloud_Test_1_Customertimes_Xcode_Cloud_Test_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Customertimes_Xcode_Cloud_Test_1_Customertimes_Xcode_Cloud_Test_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874DEA8A29EEFAAC00FA2600 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		87FB241B29ED365C00C82CEB /* CTCloudTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTCloudTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FB241E29ED365C00C82CEB /* Customertimes_Xcode_Cloud_Test_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customertimes_Xcode_Cloud_Test_1App.swift; sourceTree = "<group>"; };
 		87FB242029ED365C00C82CEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		874DEA8929EEFA9A00FA2600 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				874DEA8A29EEFAAC00FA2600 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		87FB241229ED365C00C82CEB = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +120,7 @@
 		87FB241D29ED365C00C82CEB /* Customertimes Xcode Cloud Test 1 */ = {
 			isa = PBXGroup;
 			children = (
+				874DEA8929EEFA9A00FA2600 /* ci_scripts */,
 				87FB241E29ED365C00C82CEB /* Customertimes_Xcode_Cloud_Test_1App.swift */,
 				87FB242029ED365C00C82CEB /* ContentView.swift */,
 				87FB242229ED365E00C82CEB /* Assets.xcassets */,
